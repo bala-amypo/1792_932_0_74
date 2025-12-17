@@ -1,7 +1,6 @@
 package com.example.demo.entity;
 
-import jakarta.presistence.Entity;
-import jakarta.presistence.Id;
+import jakarta.presistence.Entity; 
 import jakarta.presistence.Generatedvalue;
 import jakarta.presistence.GeneratedType;
 import jakarta.presistence.Id;
@@ -16,6 +15,17 @@ public class StudentEntity {
      private string email;
      private float cgpa;
 
+     public void setName(string name) {
+        return this.name;
+     }
+
+     public void getNmae(string name) {
+        return this.name;
+     }
+
+     public void setE
+
 }
+
 
 
