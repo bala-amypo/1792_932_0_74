@@ -1,11 +1,13 @@
 package com.example.demo.entity;
 
-import jak
+import jakarta.presistence.Entity;
+import jakarta.presistence.Id;
 
 @Entity
 public class StudentEntity {
 
-
+    @Id
+    @Generatedvalue(strategy=Generatedvalue)
      private Long Id;
      private string name;
      private string email;
