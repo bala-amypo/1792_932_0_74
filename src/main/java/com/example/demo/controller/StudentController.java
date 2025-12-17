@@ -4,7 +4,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.bind.annotation.GetMapping;
 
 import com.example.demo.entity.StudentEntity;
 import com.example.demo.service.StudentService;
@@ -29,6 +28,8 @@ public class StudentController {
 
 
     @GetMapping("/getStudent/{id}")
-    public List
+    public List<StudentEntity>getStudentById @PathVariable Long id) {
+        return ser.getStudentById(id);
+    }
     
 }
