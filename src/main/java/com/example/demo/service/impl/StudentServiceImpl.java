@@ -20,7 +20,7 @@ public class StudentServiceImpl implements StudentService {
 
     @Override
     public list<StudentEntity> getStudents() {
-        return repo.    findAll();
+        return repo.findAll();
     }
 
 }
