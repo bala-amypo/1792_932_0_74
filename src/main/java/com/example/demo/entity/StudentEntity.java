@@ -1,3 +1,10 @@
-package com.example.demo.Entity
+package com.example.demo.entity;
+
+import jakartha.presistence.Entity;
+
+@Entity
+public class StudentEntity {
+
+}
 
 
