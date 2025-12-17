@@ -31,5 +31,7 @@ public class StudentController {
     public List<StudentEntity>getStudentById @PathVariable Long id) {
         return ser.getStudentById(id);
     }
+
+    @DeleteMapp
     
 }
