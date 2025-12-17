@@ -18,4 +18,9 @@ public class StudentServiceImpl implements StudentService {
         return repo.save(student);
     }
 
+    @Override
+    public list<StudentEntity> getStudents() {
+        return repo.    findAll();
+    }
+
 }
