@@ -1,10 +1,12 @@
 package com.example.demo.entity;
 
-import jakartha.presistence.Entity;
+import jak
 
 @Entity
 public class StudentEntity {
-     private long Id;
+
+
+     private Long Id;
      private string name;
      private string email;
      private float cgpa;
