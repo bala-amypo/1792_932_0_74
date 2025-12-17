@@ -29,5 +29,6 @@ public class StudentController {
 
 
     @GetMapping("/getStudent/{id}")
+    public List
     
 }
